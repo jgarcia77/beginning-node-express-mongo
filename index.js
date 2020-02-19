@@ -2,6 +2,13 @@ const express = require('express');
 const app = new express();
 const path = require('path');
 const ejs = require('ejs');
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost/my_database', {
+    useNewUrlParser: true
+});
+
+
 
 const getFilePath = file => `pages/${file}.html`;
 const getFile = name => path.resolve(__dirname, (getFilePath(name)));
