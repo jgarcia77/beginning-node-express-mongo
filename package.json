@@ -1,0 +1,22 @@
+{
+  "name": "beginning-node-express-mongo",
+  "version": "1.0.0",
+  "description": "This repository is based on the book \"Beginning Node.js, Express, &amp; MongoDB Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgarcia77/beginning-node-express-mongo.git"
+  },
+  "author": "jgarcia77",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgarcia77/beginning-node-express-mongo/issues"
+  },
+  "homepage": "https://github.com/jgarcia77/beginning-node-express-mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
